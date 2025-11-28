@@ -46,7 +46,7 @@ export async function POST(request: NextRequest) {
       }
     }
 
-    const supabase = createBrowserClient(SUPABASE_URL, SUPABASE_ANON_KEY)
+
 
     // Create conversation
     const title = body.title?.trim() || `Conversation from ${body.source}`
